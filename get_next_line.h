@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tgrandpa <tgrandpa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: whybread <whybread@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/06 11:02:38 by tgrandpa          #+#    #+#             */
-/*   Updated: 2019/05/05 17:25:47 by tgrandpa         ###   ########.fr       */
+/*   Updated: 2019/05/07 23:22:30 by whybread         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,6 @@
 # include <fcntl.h>
 # include "libft/libft.h"
 
-int		get_next_line(int fd, char **line);
+int		get_next_line(int fd, char **line, int counter);
 
 #endif
